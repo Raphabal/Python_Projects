@@ -1,0 +1,12 @@
+#Tabuada do 1 ao 9
+n = int(input('insira um numero de 1 a 9: '))
+print('a tabuada do {}: 1x1={:2} '.format(n, n*1))
+print('a tabuada do {}: 1x2={:2} '.format(n, n*2))
+print('a tabuada do {}: 1x3={:2} '.format(n, n*3))
+print('a tabuada do {}: 1x4={:2} '.format(n, n*4))
+print('a tabuada do {}: 1x5={:2} '.format(n, n*5))
+print('a tabuada do {}: 1x6={:2} '.format(n, n*6))
+print('a tabuada do {}: 1x7={:2} '.format(n, n*7))
+print('a tabuada do {}: 1x8={:2} '.format(n, n*8))
+print('a tabuada do {}: 1x9={:3} '.format(n, n*9))
+print('a tabuada do {}: 1x10={} '.format(n, n*10))
