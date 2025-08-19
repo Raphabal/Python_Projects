@@ -8,7 +8,7 @@ pyautogui.PAUSE = 1.2
 def abrir_chrome():
     try:            
         os.chdir(r'G:\Meu Drive\Python\AutomatiMannesoft\Auxiliares')
-        with open("Abre_Chrome.py") as abre_chrome:
+        with open("Open_Chrome.py") as abre_chrome:
             exec(abre_chrome.read())
         time.sleep(1)
         pyautogui.press("F5")
@@ -99,7 +99,7 @@ def abrir_explorador(caminho):
 def main():
     global execucoes
     try:
-        abrir_chrome()
+        Open_chrome()
         clicar_menu_baixas()
         selecionar_empresa()
         inserir_data()
@@ -109,7 +109,7 @@ def main():
 
         # secound company
         execucoes = 1
-        abrir_chrome()
+        Open_chrome()
         selecionar_empresa()
         inserir_data()
         selecionar_matricula()
@@ -122,4 +122,5 @@ if __name__ == "__main__":
     main()
 
 print('END Receivables 2026')
+
 
