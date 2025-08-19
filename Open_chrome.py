@@ -1,3 +1,4 @@
+#Open Chrome
 def main():
     import pyautogui
     pyautogui.press("win")
@@ -8,3 +9,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
