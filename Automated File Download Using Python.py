@@ -12,16 +12,16 @@ def abrir_chrome():
             exec(abre_chrome.read())
         time.sleep(1)
         pyautogui.press("F5")
-        time.sleep(1.4)
+        time.sleep(1)
         pyautogui.press("HOME")
-        time.sleep(3.4)
+        time.sleep(1)
     except Exception as e:
         print(f"Error in abrir_chrome: {e}")
 
 #Go to Receivables Menu Function
 def clicar_menu_baixas():
     pyautogui.PAUSE = 1.81
-    time.sleep(1.4)
+    time.sleep(1)
     try:
         with open("clica_menu_baixas.py") as clica_menu_baixas:
             exec(clica_menu_baixas.read())
@@ -89,7 +89,7 @@ def abrir_explorador(caminho):
         pyautogui.hotkey("ctrl", "v")
         time.sleep(1)
         pyautogui.press("enter")
-        time.sleep(2)
+        time.sleep(1)
         pyautogui.hotkey("alt", "f4")
         time.sleep(1)
     except Exception as e:
@@ -122,3 +122,4 @@ if __name__ == "__main__":
     main()
 
 print('END Receivables 2026')
+
