@@ -120,4 +120,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-print('FIM Baixas Matriculas 2026')
+
+print('END Receivables 2026')
